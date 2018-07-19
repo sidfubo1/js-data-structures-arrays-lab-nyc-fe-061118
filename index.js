@@ -36,6 +36,10 @@ function removeLastDriver(){
   return newArray;
 }
 
+function removeFirstDriver(){
+  var newArray=drivers.slice(1,drivers.length);
+  return newArray;
+}
 
 
 
